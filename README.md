@@ -1,6 +1,14 @@
 오픈소스전문프로젝트
 
-## ⚙️ Settings
+### ✅ To-do list
+
+```
+1.
+```
+
+<br/>
+
+### ⚙️ Settings
 
 ```java
 Code-runner Path: "kotlin": "cd $dir && kotlinc $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar",
