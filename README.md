@@ -1,1 +1,17 @@
 오픈소스전문프로젝트
+
+## ⚙️ Settings
+
+```py
+Code-runner Path: "kotlin": "cd $dir && kotlinc $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar",
+
+ver:
+UI Configuration: figma
+Developments tools: Android Studio
+DataBase: ERD Editor, MySQL
+Front-End: React
+
+Java: 17.0.12
+Kotlin: 2.1.20-RC2
+AVD Simulator Ver: Pixel 7
+```
