@@ -23,4 +23,7 @@ Back-End: Java + Kotlin
 Java: 17.0.12
 Kotlin: 2.1.20-RC2
 AVD Simulator Ver: Pixel 7
+
+DB Name: dongman
+root / root
 ```
