@@ -2,14 +2,15 @@
 
 ## ⚙️ Settings
 
-```
+```java
 Code-runner Path: "kotlin": "cd $dir && kotlinc $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar",
 
 ver:
 UI Configuration: figma
 Developments tools: Android Studio
 DataBase: ERD Editor, MySQL
-Front-End: React
+Front-End: XML
+Back-End: Java + Kotlin
 
 Java: 17.0.12
 Kotlin: 2.1.20-RC2
