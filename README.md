@@ -6,7 +6,7 @@
 Code-runner Path: "kotlin": "cd $dir && kotlinc $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar",
 
 ver:
-UI Configuration: figma
+UI Configuration: Figma
 Developments tools: Android Studio
 DataBase: ERD Editor, MySQL
 Front-End: XML
