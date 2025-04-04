@@ -2,7 +2,7 @@
 
 ## ⚙️ Settings
 
-```py
+```
 Code-runner Path: "kotlin": "cd $dir && kotlinc $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar",
 
 ver:
