@@ -20,6 +20,7 @@
 ### 🔗 Link
 
 [Figma](https://www.figma.com/design/OTg5VRfihSNC5goiBtG6Dm/Dongmani?node-id=0-1&p=f&t=SIgXPEVEIDxkNGNl-0)
+[android-opencv](https://brunch.co.kr/@mystoryg/76)
 
 <br/>
 
@@ -33,7 +34,8 @@
 4. MySQL로 테이블 생성
 5. PHP/Node.js 서버 및 API 제작
 6. Android 앱에서 API 연동
-7. 테스트 및 구동
+7. 이미지 인식 기능 구현, Android 앱에서 연동
+8. 테스트 및 구동
 ```
 
 <br/>
