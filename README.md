@@ -2,6 +2,14 @@
 
 <br/>
 
+### 💡 Idea
+
+```java
+1. 동아리 참석율...?
+2. 
+```
+<br/> 
+
 ### 🔗 Link
 
 [Figma](https://www.figma.com/design/OTg5VRfihSNC5goiBtG6Dm/Dongmani?node-id=0-1&p=f&t=SIgXPEVEIDxkNGNl-0)
