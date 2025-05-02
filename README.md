@@ -23,6 +23,10 @@
 
 [Figma-ver2.](https://www.figma.com/design/tPXTx3xhPB6JhA1DWHtvTk/Untitled?node-id=0-1&p=f&t=4rLG65RSOiHMpv2B-0)
 
+[Figma Font Installer](https://www.figma.com/downloads/?fuid=843356296609220310)
+
+[학교안심 둥근미소 폰트](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13372623&menuNo=200195)
+
 [android-opencv](https://brunch.co.kr/@mystoryg/76)
 
 <br/>
