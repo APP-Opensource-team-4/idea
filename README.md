@@ -19,7 +19,10 @@
 
 ### 🔗 Link
 
-[Figma](https://www.figma.com/design/OTg5VRfihSNC5goiBtG6Dm/Dongmani?node-id=0-1&p=f&t=SIgXPEVEIDxkNGNl-0)
+[Figma-ver1.](https://www.figma.com/design/OTg5VRfihSNC5goiBtG6Dm/Dongmani?node-id=0-1&p=f&t=SIgXPEVEIDxkNGNl-0)
+
+[Figma-ver2.](https://www.figma.com/design/tPXTx3xhPB6JhA1DWHtvTk/Untitled?node-id=0-1&p=f&t=4rLG65RSOiHMpv2B-0)
+
 [android-opencv](https://brunch.co.kr/@mystoryg/76)
 
 <br/>
