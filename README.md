@@ -1,68 +1,75 @@
-## 오픈소스전문프로젝트
 
-<br/>
+# 🏋️‍♀️ 동만이 (Dongmani) - 오픈소스전문프로젝트
 
-### 💡 Idea
+> "운동은 함께할 때 더 즐겁다"  
+> 동호회 기반의 **참여율 추적**, **인증 시스템**, **이미지 기반 출석 체크**까지 가능한 스마트 커뮤니티 앱
 
-```java
-1. 동아리 참석율...?
-2. 주소 누르면 지도 띄워서 위치 보여주기
-3. 일정 기간 내 최대나 좋은 매너를 보여준 유저 프로필 상단에 띄워주기
-4. 동호회 모임사진 찍어서 올리면 홈화면 목록에서 상단으로 띄워주기
-5. opencv 등 이미지 인식 기능을 통해 동호회 모임 인정사진에서 참여 인원 수 파악
-6. 참여 인원 파악과 사전 조사를 통한 모임 신청 인원과의 차이로 참석률 계산
-7. 참석률이 높거나 인증사진을 올리면 모임에 포인트 지급, 매너온도 상승 등 어드벤티지 수여
-8. 포인트가 높은 모임은 앱 내 상단으로 옮김
-9. 한달 기준 가장 높은 포인트를 기록한 모임은 추가 창으로 광고 가능
+---
+
+## 💡 아이디어 핵심 포인트
+
+> 함께한 기록이 가치를 만든다!
+
+- 📊 **동아리 참석률 추적**
+- 📍 **지도 기반 위치 확인 (주소 클릭 시 지도 연결)**
+- 🥇 **매너 점수/출석률 기반 우수 유저 프로필 상단 고정**
+- 🖼️ **모임 인증사진 업로드 → 홈화면 상단 배치**
+- 🧠 **OpenCV 이미지 인식으로 참석 인원 자동 파악**
+- ✅ **참석자 수 vs 사전 신청자 수 → 자동 출석률 계산**
+- 🎁 **출석률/매너 점수 기반 포인트 & 어드벤티지 지급**
+- 📌 **포인트 높은 모임은 메인 화면 상단 고정**
+- 🔥 **한 달 포인트 1위 모임은 별도 광고 창에 노출**
+
+---
+
+## 🎨 디자인 & 리소스 링크
+
+- 🖼️ [Figma ver.1](https://www.figma.com/design/OTg5VRfihSNC5goiBtG6Dm/Dongmani?node-id=0-1&p=f&t=SIgXPEVEIDxkNGNl-0)  
+- 🧪 [Figma ver.2](https://www.figma.com/design/tPXTx3xhPB6JhA1DWHtvTk/Untitled?node-id=0-1&p=f&t=4rLG65RSOiHMpv2B-0)  
+- 🔤 [Figma Font Installer](https://www.figma.com/downloads/?fuid=843356296609220310)  
+- 🧸 [학교안심 둥근미소 폰트](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13372623&menuNo=200195)  
+- 📷 [Android + OpenCV 모임 인식 참고](https://brunch.co.kr/@mystoryg/76)
+
+---
+
+## 🧩 개발 To-do List
+
+```txt
+✅ 화면 기획 및 UI 설계 (Figma → XML)
+✅ Android에서 기능 구현 (더미데이터 기반)
+✅ Firebase Firestore 데이터베이스 구조 설계
+✅ Firebase Authentication 연동 (Google/Kakao 로그인)
+⬜ Firebase Storage를 통한 이미지 업로드
+⬜ 이미지 인식(OpenCV) 기능 구현 및 연동
+⬜ 전체 기능 테스트 및 앱 배포
 ```
-<br/> 
 
-### 🔗 Link
+---
 
-[Figma-ver1.](https://www.figma.com/design/OTg5VRfihSNC5goiBtG6Dm/Dongmani?node-id=0-1&p=f&t=SIgXPEVEIDxkNGNl-0)
+## ⚙️ 개발 환경 설정
 
-[Figma-ver2.](https://www.figma.com/design/tPXTx3xhPB6JhA1DWHtvTk/Untitled?node-id=0-1&p=f&t=4rLG65RSOiHMpv2B-0)
-
-[Figma Font Installer](https://www.figma.com/downloads/?fuid=843356296609220310)
-
-[학교안심 둥근미소 폰트](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13372623&menuNo=200195)
-
-[android-opencv](https://brunch.co.kr/@mystoryg/76)
-
-<br/>
-
-### ✅ To-do list
-
-```java
-1. 화면 기획 및 UI 설계 (Figma, XML)
-2. Android에서 기능 로직 작성 (더미데이터 기반)
-3. 필요한 데이터 구조 분석
-3. DB 테이블 설계 
-4. MySQL로 테이블 생성
-5. PHP/Node.js 서버 및 API 제작
-6. Android 앱에서 API 연동
-7. 이미지 인식 기능 구현, Android 앱에서 연동
-8. 테스트 및 구동
+```yaml
+UI 설계도구      : Figma
+개발도구         : Android Studio (Java + Kotlin)
+프론트엔드       : XML
+백엔드           : Firebase (Authentication + Firestore + Storage)
+이미지 인식      : OpenCV
 ```
 
-<br/>
+- ✅ **AVD 시뮬레이터**: Pixel 7  
+- ✅ **Java 버전**: 17.0.12  
+- ✅ **Kotlin 버전**: 2.1.20-RC2  
+- ✅ **Firebase 구성**
+  ```
+  Authentication: Google, Kakao OAuth
+  Database: Firestore
+  Storage: Firebase Storage (사진 업로드)
+  ```
 
-### ⚙️ Settings
+---
 
-```java
-Code-runner Path: "kotlin": "cd $dir && kotlinc $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar",
+## 🤝 팀 노트
 
-ver:
-UI Configuration: Figma
-Developments tools: Android Studio
-DataBase: ERD Editor, MySQL
-Front-End: XML
-Back-End: Java + Kotlin
-
-Java: 17.0.12
-Kotlin: 2.1.20-RC2
-AVD Simulator Ver: Pixel 7
-
-DB Name: dongman
-root / root
-```
+- 로그인, 회원가입은 **Google/Kakao 소셜 로그인과 Firestore 연동**으로 구현
+- 모든 모임은 사용자 인증 기반으로 신뢰성 있는 참석률 측정 가능
+- 꾸준한 참여 → 리워드 제공 → 모임 활성화 → 동아리의 성장
