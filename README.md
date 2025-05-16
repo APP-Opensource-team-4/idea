@@ -49,8 +49,10 @@
 ✅ Android에서 기능 구현 (더미데이터 기반)
 ✅ Firebase Firestore 데이터베이스 구조 설계
 ✅ Firebase Authentication 연동 (Google/Kakao 로그인)
+⬜ 채팅기능 구현
 ⬜ Firebase Storage를 통한 이미지 업로드
-⬜ 이미지 인식(OpenCV) 기능 구현 및 연동
+⬜ 이미지 인식(OpenCV)을 통한 모임 참여자 파악 기능 구현 및 연동
+⬜ 지도 앱 연동 및 기능 구현
 ⬜ 전체 기능 테스트 및 앱 배포
 ```
 
