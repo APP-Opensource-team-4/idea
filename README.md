@@ -46,21 +46,6 @@
 
 ---
 
-## 🧩 개발 To-do List
-
-```txt
-✅ 화면 기획 및 UI 설계 (Figma → XML)
-✅ Android에서 기능 구현 (더미데이터 기반)
-✅ Firebase Firestore 데이터베이스 구조 설계
-✅ Firebase Authentication 연동 (Google/Kakao 로그인)
-⬜ 채팅기능 구현
-⬜ Firebase Storage를 통한 이미지 업로드
-⬜ 이미지 인식(OpenCV)을 통한 모임 참여자 파악 기능 구현 및 연동
-⬜ 지도 앱 연동 및 기능 구현
-⬜ 전체 기능 테스트 및 앱 배포
-```
-
----
 
 ## ⚙️ 개발 환경 설정
 
@@ -103,3 +88,15 @@ UI 설계도구      : Figma
 > - 회원가입 화면 완성 및 연동  
 > - Firebase 구조 초기화 및 샘플 데이터 삽입  
 > - 주요 흐름 화면 캡처 및 README 시각화 강화
+
+## 🗂️ Product Backlog
+ID	작업	우선순위	예상 소요
+P1	Firebase 로그인 연동	★★★	1일
+P2	모임 게시글 쓰기 UI	★★☆	1.5일
+P3	게시글 목록 RecyclerView	★★☆	2일
+P4	Firestore에 글 저장	★★★	1일
+P5	채팅 기능 구상	★☆☆	0.5일
+P6 Firebase Storage 이미지 업로드 ★★☆ 1.5일
+P7 이미지 인식 (OpenCV) 기반 참여자 식별 구현 ★★☆ 3일
+P8 지도 앱 연동 및 위치 기반 모임 생성 기능 ★★☆ 2일
+P9 전체 기능 QA 테스트 및 앱 배포 준비 ★★★ 2일
