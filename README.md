@@ -51,13 +51,13 @@
 | **2회차** | ✅ 회원가입 화면 UI 및 Firebase Authentication 연동 완료<br>✅ Firebase Firestore 구조 초기화 및 샘플 데이터 삽입<br>📸 주요 사용자 흐름 화면(인트로, 로그인, 회원가입) 캡처 및 README 반영<br>🔧 앱 초기 진입 및 인증 관련 기본 기능 테스트 및 디버깅 |
 | **3회차** | ✅ 홈 화면(메인 화면) 주요 기능 레이아웃 구성 완료 <br>✅ Firestore와 연동한 실시간 데이터(게시글 목록) 읽기 기능 구현 및 최적화<br>✅ `DetailActivity`에서 **Google Maps 연동**을 통한 모임 장소 확인 기능 구현<br>✅ 앱 초기 진입 흐름 및 데이터 로딩 방식 안정화 |
 | **4회차** | ✅ **Firebase Authentication 연동 심화**: 로그인 및 회원가입 기능 안정화, 앱 전역적인 세션 유지 처리 (Custom Application 클래스 `DongmanApp` 활용).<br>✅ **게시물 작성 및 Firebase Storage 이미지 업로드**: 다중 이미지 선택, Firebase Storage로의 비동기 업로드 및 다운로드 URL Firestore 저장 기능 구현.<br>✅ **Google ML Kit Object Detection 구현**: `DetailActivity`에서 게시물 이미지 로드 시 사람 수 자동 감지 및 바운딩 박스 시각화, 참여율 계산 로직 통합.<br>✅ **Firebase 보안 규칙 설정**: 개발 및 테스트를 위한 Firestore 및 Storage의 `read, write: true;` (혹은 `if request.auth != null;`) 규칙 설정 및 배포 (추후 프로덕션 환경에 맞춰 강화 예정).<br>✅ **주요 버그 수정**:
+| **5회차** | ✅ **전체 기능 QA 테스트 및 앱 배포 준비**<br>✅ `MainActivity` 필터/탭 기능(인기순, 조회순, 가까운순)에 대한 Firestore 쿼리 로직 구체화<br>✅ 매너 점수/포인트 시스템 및 우수 유저/모임 상단 고정 로직 설계<br>✅ Firebase 보안 규칙을 프로덕션 환경에 적합하도록 고도화<br>✅ 사용자 피드백 반영 및 UI/UX 개선 |
     * **Firebase SDK 초기화 타이밍 문제**: `Application` 클래스(`DongmanApp.java`)에서 `FirebaseApp.initializeApp()`을 단일 초기화하도록 변경하여 해결.
     * **매니페스트 구조 오류**: `AndroidManifest.xml` 내 `<application>` 태그의 중복 속성과 `android:name` 속성 위치 오류를 수정하여 빌드 실패 해결.
     * **UI 요소 타입 불일치**: `DetailActivity`에서 `ImageButton`을 `Button`으로 잘못 캐스팅하는 `ClassCastException` 해결.
     * **Firestore 쿼리 중복 `orderBy`**: `MainActivity`의 게시물 목록 쿼리에서 `timestamp` 필드에 대한 `orderBy` 절이 중복 적용되는 `INVALID_ARGUMENT` 오류 해결.
     * **리소스 파일명 규칙 위반**: `drawable` 폴더 내 이미지 파일명에 허용되지 않는 문자(`-`) 사용 문제 해결.
     * `NullPointerException` 등 기타 런타임 오류 디버깅 및 안정화.
-| **5회차** | 📌 **전체 기능 QA 테스트 및 앱 배포 준비**<br>📌 `MainActivity` 필터/탭 기능(인기순, 조회순, 가까운순)에 대한 Firestore 쿼리 로직 구체화<br>📌 매너 점수/포인트 시스템 및 우수 유저/모임 상단 고정 로직 설계<br>📌 Firebase 보안 규칙을 프로덕션 환경에 적합하도록 고도화<br>📌 사용자 피드백 반영 및 UI/UX 개선 |
 
 <br/>
 
