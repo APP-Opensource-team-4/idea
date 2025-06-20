@@ -13,11 +13,11 @@
 
 | 인트로 화면 | 로그인 화면 | 회원가입 화면 | 메인 화면 |
 |-------------|-------------|----------------|------------|
-| ![intro](images/intro.png) | ![login](images/login.png) | ![register](images/register.png) | ![main](images/main.png) |
+| ![인트로 화면](images/intro.png) | ![로그인 화면](images/login.png) | ![회원가입 화면](images/register.png) | ![메인 화면](images/main.png) |
 
-| 글 세부 화면 | 채팅 화면 |
-|---------------|-------------|
-| ![detail](images/detail.png) | ![chat](images/chat.png) | [1]!(images/Screenshot 2025-06-20 at 09 03 43)| [2]!(images/Screenshot 2025-06-20 at 09 03 43)|
+| 글 세부 화면 | 채팅 화면 | 추가 화면 1 | 추가 화면 2 |
+|---------------|-------------|-------------|-------------|
+| ![글 세부 화면](images/detail.png) | ![채팅 화면](images/chat.png) | ![채팅 화면_추가1](images/Screenshot_2025-06-20_at_09_03_43.png) | ![채팅 화면_추가2](images/Screenshot_2025-06-20_at_09_03_43_another.png) |
 
 
 
