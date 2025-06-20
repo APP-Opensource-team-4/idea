@@ -17,7 +17,7 @@
 
 | 글 세부 화면 | 채팅 화면 | 추가 화면 1 | 추가 화면 2 |
 |---------------|-------------|-------------|-------------|
-| ![글 세부 화면](images/detail.png) | ![채팅 화면](images/chat.png) | ![채팅 화면_추가1](images/Screenshot_2025-06-20_at_09_03_43.png) | ![채팅 화면_추가2](images/Screenshot_2025-06-20_at_09_03_43_another.png) |
+| ![글 세부 화면](images/detail.png) | ![채팅 화면](images/chat.png) | ![채팅 화면_추가1](images/crossfit) | ![채팅 화면_추가2](images/yoga) |
 
 
 
