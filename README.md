@@ -17,7 +17,7 @@
 
 | 글 세부 화면 | 채팅 화면 |
 |---------------|-------------|
-| ![detail](images/detail.png) | ![chat](images/chat.png) | [1]![Screenshot 2025-06-20 at 09 03 43]| [2]![Screenshot 2025-06-20 at 09 03 43]|
+| ![detail](images/detail.png) | ![chat](images/chat.png) | [1]!(images/Screenshot 2025-06-20 at 09 03 43)| [2]!(images/Screenshot 2025-06-20 at 09 03 43)|
 
 
 
